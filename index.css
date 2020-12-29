@@ -1,0 +1,114 @@
+.row{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+    background-image: url("https://cms-web.olacabs.com/00000000383.jpg");
+    background-position: center center;
+    height: 600px;
+}
+@media only screen and (max-width: 768px){
+    body{
+        background:radial-gradient(black, transparent);
+    }
+}
+.navbar{
+    min-width: 350px;
+}
+
+.head{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+.head h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.head p{
+    font-size: 20px;
+    font-weight: 18px;
+}
+
+.form{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin: 0% 2%;
+    padding: 2%;
+    min-width: 345px;
+    border-radius: 10px;
+
+}
+
+.form p{
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+    margin-left: 35%;
+    min-width: 50px;
+
+}
+
+form button{
+    width: 100%;
+   font-weight: bold;
+}
+
+.modal-footer button{
+    width: 100%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+/* SignUp styling starting from here*/
+
+.signUpHeader{
+    width: 30%;
+    margin: 3%;
+}
+
+.signUpHeader form{
+border: 1px solid white;
+background-color: white;
+padding: 8% 4%;
+border-radius: 10px ;
+}
+
+.signUpHeader h1{
+    color: white;
+}
+
+form a{
+    color: white;
+}
+
+.modal a{
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+/* thanku styling start from here*/
+.thanku{
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/* about us*/
+
+.row{
+    color: white !important;
+}
+
+.col-md-3{
+    background-color: gray;
+}
